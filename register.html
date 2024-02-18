@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+     <style>
+        body{
+            background-color: blanchedalmond;
+            display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 100vh;
+            font-size: 18px;
+        }
+        form{
+            padding: 20px;
+            border-radius: 8px;
+            width: 30%;
+            text-align: center;
+        }
+        label {
+           display: block;
+           text-align: center;
+           margin-bottom: 8px;
+           
+           
+        }
+        input{
+            width: 100%;
+            padding: 10px;
+  
+        }
+        button{
+            padding: 10px;
+                margin: 10px;
+            border-radius: 8px;
+            background-color: aquamarine;
+            border: none;
+        }
+     </style>
+</head>
+<body>
+    <form action="/register" method="post">
+        <label for="fullname">fullname:</label>
+        <input type="text" name="fullname" id="fullname">
+        <label for="email">email:</label>
+        <input type="email" name="email" id="fullname">
+        <label for="password">password:</label>
+        <input type="password" name="password" id="password">
+        <button>register</button>
+    </form>
+</body>
+</html>
